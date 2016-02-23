@@ -7,8 +7,8 @@
 int main (void)
 {
     int fd = -1;
-    char filename[]= "test.txt"
-	fd = open(filename,O_RDWR)
+    char filename[]= "test.txt";
+	fd = open(filename,O_RDWR);
 	if(-1 == fd) {
 	    printf("Open file %s failure!,fd:%d\n",filename,fd);
 	} else {
